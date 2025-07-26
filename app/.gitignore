@@ -1,1 +1,75 @@
-/build
+# ------------------------------------
+# 🛠  Android Studio & IntelliJ
+# ------------------------------------
+.idea/
+*.iml
+*.iws
+*.ipr
+.gradle/
+local.properties
+.cache/
+captures/
+output.json
+
+# ------------------------------------
+# 🚫 Build Output (but keep APKs)
+# ------------------------------------
+/build/
+**/build/
+!app/build/outputs/
+!app/build/outputs/apk/
+!app/build/outputs/apk/**/*.apk
+
+# ------------------------------------
+# 📦 Gradle
+# ------------------------------------
+.gradle/
+build/
+!gradle-wrapper.jar
+
+# ------------------------------------
+# 🔐 Keystores (sensitive signing files)
+# ------------------------------------
+*.jks
+*.keystore
+
+# ------------------------------------
+# 🧹 System Files
+# ------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ------------------------------------
+# 🧪 Test Reports
+# ------------------------------------
+test-results/
+*.ec
+
+# ------------------------------------
+# 📱 APKs (optional to include manually)
+# ------------------------------------
+# Remove these lines if you do NOT want to track APKs
+# !app/build/outputs/apk/
+# !app/build/outputs/apk/**/*.apk
+
+# ------------------------------------
+# 📜 Logs and Temporary Files
+# ------------------------------------
+*.log
+*.swp
+*.tmp
+
+# ------------------------------------
+# 🧬 Kotlin/Java
+# ------------------------------------
+*.class
+*.jar
+*.war
+*.ear
+
+# ------------------------------------
+# 🌍 Others
+# ------------------------------------
+*.orig
+*.bak
